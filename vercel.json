@@ -2,14 +2,14 @@
     "version": 2,
     "builds": [
       {
-        "src": "teste.js",
+        "src": "barra.js",
         "use": "@vercel/node"
       }
     ],
     "routes": [
       {
         "src": "/(.*)",
-        "dest": "teste.js"
+        "dest": "barra.js"
       }
     ]
   }
