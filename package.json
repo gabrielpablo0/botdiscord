@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "main": "barra.js",
   "scripts": {
-    "start": "node barra.js"
+    "start": "node .\barra.js"
   },
   "keywords": [],
   "author": "",
