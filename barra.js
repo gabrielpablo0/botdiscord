@@ -22,7 +22,7 @@ const {
 } = require('discord.js');
 const axios = require('axios');
 
-const DISCORD_TOKEN = 'MTMxNzE4Njk4NTE2MDYwOTg2Mg.G3xUZP.8tsEoGqe8ushOrEXO1-0krKZSbt9NMC5L6U1fo';
+const DISCORD_TOKEN = DISCORDID;
 const CLICKUP_TOKEN = 'pk_49018384_V99LN7PCXED4T9BFGQWE2U68IKEW58FJ';
 const TEAM_ID = '31137452'; 
 const CLIENT_ID = '1317186985160609862';
