@@ -1,5 +1,6 @@
 const express = require('express');
 const app = express();
+require('dotenv').config();
 
 const PORT = process.env.PORT || 3000;
 
@@ -22,7 +23,7 @@ const {
 } = require('discord.js');
 const axios = require('axios');
 
-const DISCORD_TOKEN = DISCORDID;
+const DISCORD_TOKEN = process.env.DISCORDID;
 const CLICKUP_TOKEN = 'pk_49018384_V99LN7PCXED4T9BFGQWE2U68IKEW58FJ';
 const TEAM_ID = '31137452'; 
 const CLIENT_ID = '1317186985160609862';
